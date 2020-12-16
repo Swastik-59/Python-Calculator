@@ -2,7 +2,7 @@
 This is a simple CALCULATOR made with Python.
 # PYTHON CALCULATOR
 
-# First create functions of Add,Subtract,Multiply,Divide
+# First create functions of Add,Subtract,Multiply,Divide.
 def add(num1, num2):
     return num1+num2
 
@@ -18,21 +18,21 @@ def multiply(num1, num2):
 def divide(num1, num2):
     return num1/num2
 
-# Print the oprations 
+# Print the oprations.
 print("please select operations -\n"
       "1. Add\n"
       "2. Subtract\n"
       "3. Multiply\n"
       "4. Divide\n")
 
-# Take input from user to choose the oprations to do
+# Take input from user to choose the oprations to do.
 select = int(input("select operations form 1,2,3,4 :"))
 
-# Take input of numbers from user 
+# Take input for numbers from user.
 number_1 = int(input("Enter first number :"))
 number_2 = int(input("Enter second number :"))
 
-# For Repeating the program
+# For Repeating the program.
 while True:
 
     # If selected 1        (1 is for Adding)
