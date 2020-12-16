@@ -34,6 +34,7 @@ number_2 = int(input("Enter second number :"))
 
 # For Repeating the program
 while True:
+
     # If selected 1        (1 is for Adding)
     if select == 1:
         print(number_1, "+", number_2, "=",
